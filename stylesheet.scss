@@ -38,7 +38,7 @@ a {
     height: 60px;
   }
   .navbar-brand {
-    padding-top: 11px;
+    padding-top: 9px;
     font-size: 2em;
   }
 }
@@ -189,13 +189,13 @@ nav.navbar.main {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .hidden-sm-up {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 991px) {
   .hidden-md-up {
     display: none;
   }
