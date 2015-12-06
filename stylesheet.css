@@ -101,7 +101,7 @@ nav.navbar {
 
 .main-content {
   padding: 10px;
-  margin-bottom: 25px; }
+  margin-bottom: 50px; }
   .main-content .display-4 {
     font-size: 200%; }
   .main-content #mainList {
@@ -117,7 +117,7 @@ nav.navbar {
   border-radius: 0px;
   background: #333; }
   #footer li .nav-link {
-    margin-top: 13px;
+    margin-top: 2px;
     padding: 0px;
     font-size: 1rem; }
 
