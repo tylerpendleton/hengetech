@@ -164,19 +164,19 @@ nav.navbar.main {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 767px) {
   .hidden-xs-down {
     display: none;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 991px) {
   .hidden-sm-down {
     display: none;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 992px) {
   .hidden-sm-up {
     display: none;
   }
