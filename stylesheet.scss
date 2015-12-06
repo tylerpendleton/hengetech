@@ -38,8 +38,8 @@ a {
     height: 60px;
   }
   .navbar-brand {
-    margin-top: -1px;
-    font-size: 1.7rem;
+    padding-top: 11px;
+    font-size: 2em;
   }
 }
 
@@ -151,7 +151,7 @@ nav.navbar.main {
   border-radius: 0px;
   background: #333;
   li .nav-link {
-    margin-top: 12px;
+    margin-top: 13px;
     padding: 0px;
     font-size: 1rem;
   }
