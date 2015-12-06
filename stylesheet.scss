@@ -1,0 +1,173 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  color: white;
+  margin-top: -5px;
+  &:hover {
+    color: gray;
+  }
+}
+
+.small-bar {
+  background: silver;
+  height: 20px;
+  font-size: .7em;
+  padding: 0px 10px 0px 10px;
+  border-bottom: solid 1px white;
+  .pipe {
+    color: white;
+    margin-top: 1px;
+  }
+}
+
+.main {
+  height: 60px;
+  background: silver;
+  img {
+    margin: -8px 0px 0px -31px;
+    height: 60px;
+  }
+  .navbar-brand {
+    margin-top: -1px;
+    font-size: 1.7rem;
+  }
+}
+
+nav.navbar.main {
+  border-radius: 0px;
+  -o-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+.large-bar {
+  box-shadow: 0px 2px 2px rgba(0,0,0,.4);
+  -o-box-shadow: 0px 2px 2px rgba(0,0,0,.4);
+  -moz-box-shadow: 0px 2px 2px rgba(0,0,0,.4);
+  border-top: solid 1px white;
+  background: silver;
+  border-radius: 0px;
+  min-height: 40px;
+  a {
+    color: white;
+    margin-top: 0px;
+    &:hover {
+      color: gray;
+    }
+  }
+  .pipe {
+    color: white;
+    margin-top: 6px;
+  }
+}
+
+.sidebar {
+  box-shadow: -1px -2px 2px rgba(0,0,0,.4);
+  -o-box-shadow: -1px -2px 2px rgba(0,0,0,.4);
+  -moz-box-shadow: -1px -2px 2px rgba(0,0,0,.4);
+  border-left: 1px solid gray;
+  height: 100vh;
+  .head {
+    background: gray;
+    color: white;
+    margin: 0px -15px 0px -15px;
+    padding: 5px;
+  }
+  label {
+    padding-top: 10px;
+  }
+  .submit {
+    padding: 10px 5px 10px 0px;
+  }
+  a {
+    color: gray;
+    &:hover {
+      color: silver;
+    }
+  }
+}
+
+.register, .help {
+  padding-top: 10px;
+  img {
+    height: 16px;
+    width: auto;
+  }
+  .line-2-text {
+    padding-top: 4px;
+  }
+}
+
+.help {
+  img {
+    margin: 2px;
+  }
+  .line-1 img {
+    margin-top: -8px;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.main-content {
+  padding: 10px;
+  .display-4 {
+    font-size: 200%;
+  }
+  #mainList {
+    margin-left: 40px;
+  }
+}
+
+.small-bar-small-screen a {
+  color: gray;
+  &:hover {
+    color: silver;
+  }
+}
+
+#footer {
+  height: 20px;
+  border-radius: 0px;
+  li .nav-link {
+    padding: 0px;
+    font-size: .7rem;
+  }
+}
+
+#userMenu {
+  li {
+    width: 170px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .first-item {
+    padding-left: 26px;
+  }
+}
+
+.small-bottom-nav {
+  a {
+    color: gray;
+    &:hover {
+      color: silver;
+    }
+  }
+}
+// .dropdown-menu {
+//   a {
+//     color: gray;
+//     &:hover {
+//       color: silver;
+//     }
+//   }
+// }

@@ -1,0 +1,124 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+a {
+  color: white;
+  margin-top: -5px; }
+  a:hover {
+    color: gray; }
+
+.small-bar {
+  background: silver;
+  height: 20px;
+  font-size: .7em;
+  padding: 0px 10px 0px 10px;
+  border-bottom: solid 1px white; }
+  .small-bar .pipe {
+    color: white;
+    margin-top: 1px; }
+
+.main {
+  height: 60px;
+  background: silver; }
+  .main img {
+    margin: -8px 0px 0px -31px;
+    height: 60px; }
+  .main .navbar-brand {
+    margin-top: -1px;
+    font-size: 1.7rem; }
+
+nav.navbar.main {
+  border-radius: 0px;
+  -o-border-radius: 0px;
+  -moz-border-radius: 0px; }
+
+.large-bar {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  border-top: solid 1px white;
+  background: silver;
+  border-radius: 0px;
+  min-height: 40px; }
+  .large-bar a {
+    color: white;
+    margin-top: 0px; }
+    .large-bar a:hover {
+      color: gray; }
+  .large-bar .pipe {
+    color: white;
+    margin-top: 6px; }
+
+.sidebar {
+  box-shadow: -1px -2px 2px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: -1px -2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -1px -2px 2px rgba(0, 0, 0, 0.4);
+  border-left: 1px solid gray;
+  height: 100vh; }
+  .sidebar .head {
+    background: gray;
+    color: white;
+    margin: 0px -15px 0px -15px;
+    padding: 5px; }
+  .sidebar label {
+    padding-top: 10px; }
+  .sidebar .submit {
+    padding: 10px 5px 10px 0px; }
+  .sidebar a {
+    color: gray; }
+    .sidebar a:hover {
+      color: silver; }
+
+.register, .help {
+  padding-top: 10px; }
+  .register img, .help img {
+    height: 16px;
+    width: auto; }
+  .register .line-2-text, .help .line-2-text {
+    padding-top: 4px; }
+
+.help img {
+  margin: 2px; }
+.help .line-1 img {
+  margin-top: -8px; }
+
+.clear {
+  clear: both; }
+
+.pad {
+  padding: 10px; }
+
+.main-content {
+  padding: 10px; }
+  .main-content .display-4 {
+    font-size: 200%; }
+  .main-content #mainList {
+    margin-left: 40px; }
+
+.small-bar-small-screen a {
+  color: gray; }
+  .small-bar-small-screen a:hover {
+    color: silver; }
+
+#footer {
+  height: 20px;
+  border-radius: 0px; }
+  #footer li .nav-link {
+    padding: 0px;
+    font-size: .7rem; }
+
+#userMenu li {
+  width: 170px;
+  padding-left: 10px;
+  padding-top: 10px; }
+#userMenu .first-item {
+  padding-left: 26px; }
+
+.small-bottom-nav a {
+  color: gray; }
+  .small-bottom-nav a:hover {
+    color: silver; }
+
+/*# sourceMappingURL=stylesheet.css.map */
