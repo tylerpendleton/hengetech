@@ -17,6 +17,8 @@ a {
   .small-bar .pipe {
     color: white;
     margin-top: 1px; }
+  .small-bar ul {
+    height: 20px; }
   .small-bar li a {
     margin-top: -15px; }
 
