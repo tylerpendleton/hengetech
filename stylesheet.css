@@ -98,6 +98,9 @@ nav.navbar {
 .pad {
   padding: 10px; }
 
+.logo-header {
+  display: inline-block; }
+
 .main-content {
   padding: 10px;
   margin-bottom: 90px; }
