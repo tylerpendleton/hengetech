@@ -121,4 +121,17 @@ nav.navbar.main {
   .small-bottom-nav a:hover {
     color: silver; }
 
+@media only screen and (max-width: 767px) {
+  .hidden-xs-down {
+    display: none; } }
+@media only screen and (min-width: 992px) {
+  .hidden-sm-down {
+    display: none; } }
+@media only screen and (max-width: 991px) {
+  .hidden-sm-up {
+    display: none; } }
+@media only screen and (max-width: 1199px) {
+  .hidden-md-up {
+    display: none; } }
+
 /*# sourceMappingURL=stylesheet.css.map */
