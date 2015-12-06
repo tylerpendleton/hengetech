@@ -62,8 +62,7 @@ nav.navbar {
   box-shadow: -1px -2px 2px rgba(0, 0, 0, 0.4);
   -o-box-shadow: -1px -2px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: -1px -2px 2px rgba(0, 0, 0, 0.4);
-  border-left: 1px solid gray;
-  height: 100vh; }
+  border-left: 1px solid gray; }
   .sidebar .head {
     background: gray;
     color: white;
@@ -101,7 +100,7 @@ nav.navbar {
 
 .main-content {
   padding: 10px;
-  margin-bottom: 50px; }
+  margin-bottom: 90px; }
   .main-content .display-4 {
     font-size: 200%; }
   .main-content #mainList {
