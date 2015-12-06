@@ -94,7 +94,7 @@
 	</ul>
 	<br class = 'clear'/>
 
-	<nav class = 'navbar navbar-fixed-bottom hidden-sm-down navbar-dark bg-inverse col-md-9' id = 'footer'>
+	<nav class = 'navbar navbar-fixed-bottom hidden-sm-down navbar-dark bg-inverse col-md-12' id = 'footer'>
 	<ul class = 'nav nav-pills'>
 	  <li class = 'nav-item'><a href = '#' class = 'nav-link'>Sample footer</a></li>
 	</ul>
@@ -167,92 +167,52 @@
     <!--   </div> -->
     <!--   <br class = 'clear'/> -->
     <!-- </div> -->
-    <!-- <1!-- End of Sidebars --1> -->
-
-
-
-    <!-- login bar for small screens -->
-    <div class = 'col-xs-12 hidden-sm-up sidebar text-center' id = 'login'>
-      <div class = 'head'>
-	<h4>Log in to the Council Website</h4>
-      </div>
-      <div class = 'login'>
-	<label for = 'username'>Username</label>
-	<input type="text" class="form-control text-center" id = 'username' placeholder="Username">
-	<label for = 'password'>Password</label>
-	<input type="text" class="form-control text-center" id = 'password' placeholder="Password">
-	<div class = 'submit'>
-	  <button class = 'btn btn-secondary-outline'>Login</button>
+  <!-- <1!-- End of Sidebars --1> -->
+  <div class = 'hidden-sm-up'>
+    <ul class = 'nav nav-pills nav-stacked'>
+      <li class = 'nav-item active'>
+      <a href = '#' class = 'nav-link'>Council of Victoria</a>
+      </li>
+      <li class = 'nav-item'>
+      <a href = '#' class = 'nav-link'>Contact Council</a>
+      </li>
+      <li class = 'nav-item'>
+      <a href = '#' class = 'nav-link'>Site Map</a>
+      </li>
+      <li class = 'nav-item'>
+      <a href = '#' class = 'nav-link'>Disclaimer</a>
+      </li>
+      <li class = 'nav-item'>
+      <a href = '#' class = 'nav-link'>Privacy</a>
+      </li>
+      <li class = 'nav-item'>
+      <a href = '#' class = 'nav-link'>Council Website</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+	<div class="modal-header">
+	  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	  <h4 class="modal-title" id="myModalLabel">Log In to the Council Website</h4>
 	</div>
-      </div>
-      <div class = 'clear'></div>
-      <div class = 'head'>
-	<h4>New User? Register Today!</h4>
-      </div>
-      <div class = 'register'>
-	<div class = 'line-1'>
-	  <a href = '#'><h6>Register today for a username and password</h6></a>
-	</div>
-	<div class = 'line-2'>
-	  <a href = '#'><h6>Why do I need to register?</h6></a>
-	</div>
-      </div>
-      <div class = 'clear pad'></div>
-      <div class = 'help-head head'>
-	<h4>Need Help?</h4>
-      </div>
-      <div class = 'help'>
-	<div class = 'line-1'>
-	  <a href = '#'><h6>Forgot Your Password?</h6></a>
-	</div>
-	<div class = 'line-2'>
-	  <a href = '#'><h6>Contact Us</h6></a>
-	  <ul class = 'nav nav-pills nav-stacked'>
-	    <li class = 'nav-item active'>
-	    <a href = '#' class = 'nav-link'>Council of Victoria</a>
-	    </li>
-	    <li class = 'nav-item'>
-	    <a href = '#' class = 'nav-link'>Contact Council</a>
-	    </li>
-	    <li class = 'nav-item'>
-	    <a href = '#' class = 'nav-link'>Site Map</a>
-	    </li>
-	    <li class = 'nav-item'>
-	    <a href = '#' class = 'nav-link'>Disclaimer</a>
-	    </li>
-	    <li class = 'nav-item'>
-	    <a href = '#' class = 'nav-link'>Privacy</a>
-	    </li>
-	    <li class = 'nav-item'>
-	    <a href = '#' class = 'nav-link'>Council Website</a>
-	    </li>
-	  </ul>
+	<div class="modal-body">
+	  <label for = 'username'>Username</label>
+	  <div class = 'input-group col-xs-12'>
+	    <input type="text" class="form-control" id = 'username' placeholder="Username">
+	  </div>
+	  <label for = 'password'>Password</label>
+	  <div class = 'input-group col-xs-12'>
+	    <input type="text" class="form-control" id = 'password' placeholder="Password">
+	  </div>
+	  <div class="modal-footer">
+	    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	    <button type="button" class="btn btn-primary">Log In</button>
+	  </div>
 	</div>
       </div>
     </div>
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-	<div class="modal-content">
-	  <div class="modal-header">
-	    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	    <h4 class="modal-title" id="myModalLabel">Log In to the Council Website</h4>
-	  </div>
-	  <div class="modal-body">
-	      <label for = 'username'>Username</label>
-	      <div class = 'input-group col-xs-12'>
-		<input type="text" class="form-control" id = 'username' placeholder="Username">
-	      </div>
-	      <label for = 'password'>Password</label>
-	      <div class = 'input-group col-xs-12'>
-		<input type="text" class="form-control" id = 'password' placeholder="Password">
-	      </div>
-	    <div class="modal-footer">
-	      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      <button type="button" class="btn btn-primary">Log In</button>
-	    </div>
-	  </div>
-	</div>
-      </div>
-    </body>
-  </html>
+  </body>
+</html>
