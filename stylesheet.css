@@ -18,6 +18,8 @@ a {
   .small-bar .pipe {
     color: white;
     margin-top: 1px; }
+  .small-bar li a {
+    margin-top: -15px; }
 
 .main {
   height: 60px;
