@@ -38,15 +38,15 @@ a {
     height: 60px;
   }
   .navbar-brand {
-    padding-top: 9px;
     font-size: 2em;
   }
 }
 
-nav.navbar.main {
+nav.navbar {
   border-radius: 0px;
   -o-border-radius: 0px;
   -moz-border-radius: 0px;
+  min-height: 0;
 }
 
 .large-bar {
